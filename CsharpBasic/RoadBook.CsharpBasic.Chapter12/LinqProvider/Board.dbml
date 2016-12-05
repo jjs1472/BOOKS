@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="testdb" Class="BoardDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=testdb;Persist Security Info=True;User ID=sa" SettingsObjectName="RoadBook.CsharpBasic.Chapter12.Properties.Settings" SettingsPropertyName="testdbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TB_BOARD" Member="TB_BOARD">
+    <Type Name="TB_BOARD">
+      <Column Name="IDX" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TITLE" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CONTENT" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="WRITER_NAME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CREATE_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TAG" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="C_IDX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TB_BOARD_TB_REPLY" Member="TB_REPLY" ThisKey="IDX" OtherKey="B_IDX" Type="TB_REPLY" />
+      <Association Name="TB_CATEGORY_TB_BOARD" Member="TB_CATEGORY" ThisKey="C_IDX" OtherKey="IDX" Type="TB_CATEGORY" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TB_CATEGORY" Member="TB_CATEGORY">
+    <Type Name="TB_CATEGORY">
+      <Column Name="IDX" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CATEGORY_NM" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="TB_CATEGORY_TB_BOARD" Member="TB_BOARD" ThisKey="IDX" OtherKey="C_IDX" Type="TB_BOARD" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TB_REPLY" Member="TB_REPLY">
+    <Type Name="TB_REPLY">
+      <Column Name="IDX" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="COMMENT" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="WRITER_NAME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CREATE_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="B_IDX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TB_BOARD_TB_REPLY" Member="TB_BOARD" ThisKey="B_IDX" OtherKey="IDX" Type="TB_BOARD" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
