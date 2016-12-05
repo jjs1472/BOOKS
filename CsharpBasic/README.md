@@ -27,6 +27,13 @@
 10. 콘솔 게시판 만들기
 11. Lambda 와 Linq
 12. 검색엔진 만들기
+   * Nuget
+   * Crawling
+       * Linq to SQL
+       * Linq to XML
+   * Lucene.net
+       * Indexing
+       * Searching
 13. Csharp New Feature
    * 4.x 기능
    * 5.x 기능
