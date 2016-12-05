@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter01", "RoadBook.CsharpBasic.Chapter01\RoadBook.CsharpBasic.Chapter01.csproj", "{D4F4EED8-5205-401C-ADD5-9C9C9EDFB554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter02", "RoadBook.CsharpBasic.Chapter02\RoadBook.CsharpBasic.Chapter02.csproj", "{3B7FE8C9-A047-4F9B-A749-F5B6F79A6E83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D4F4EED8-5205-401C-ADD5-9C9C9EDFB554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F4EED8-5205-401C-ADD5-9C9C9EDFB554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F4EED8-5205-401C-ADD5-9C9C9EDFB554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7FE8C9-A047-4F9B-A749-F5B6F79A6E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7FE8C9-A047-4F9B-A749-F5B6F79A6E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7FE8C9-A047-4F9B-A749-F5B6F79A6E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7FE8C9-A047-4F9B-A749-F5B6F79A6E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
