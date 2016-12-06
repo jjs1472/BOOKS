@@ -13,6 +13,7 @@
 5. 코드를 조립하자
    * namespace
    * using
+   * class
    * method
    * interface
 6. 문자열/숫자 다루기
