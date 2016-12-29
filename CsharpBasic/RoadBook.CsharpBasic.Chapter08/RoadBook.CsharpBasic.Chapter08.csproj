@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\Error1.cs" />
+    <Compile Include="Examples\Error2.cs" />
+    <Compile Include="Examples\ExceptionHandling1.cs" />
+    <Compile Include="Examples\ExceptionHandling2.cs" />
+    <Compile Include="Examples\ExceptionHandling3.cs" />
+    <Compile Include="Examples\ExceptionHandling4.cs" />
+    <Compile Include="Examples\ExceptionHandling5.cs" />
+    <Compile Include="Examples\FileManager.cs" />
+    <Compile Include="Examples\FileManagerRun.cs" />
+    <Compile Include="Examples\UserExcept\MyStyleException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
