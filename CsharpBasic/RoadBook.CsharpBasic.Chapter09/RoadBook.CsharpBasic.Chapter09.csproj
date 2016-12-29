@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\Connect.cs" />
+    <Compile Include="Examples\CRUD.cs" />
+    <Compile Include="Examples\Delete.cs" />
+    <Compile Include="Examples\Insert.cs" />
+    <Compile Include="Examples\Select.cs" />
+    <Compile Include="Examples\Update.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataBase\예제쿼리.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
