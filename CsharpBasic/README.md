@@ -21,8 +21,16 @@
     * 숫자 함수
     * 파일 입출력
 7. 어디에 담을까?
-    * Generic
     * Collection
+      * ArrayList
+      * Queue
+      * Stack
+      * Hashtable
+    * Generic
+      * List&lt;T&gt;
+      * Queue
+      * Stack
+      * Dictionary
 8. 예외 처리
     * try - catch - finally
 9. 데이터베이스와의 만남
@@ -30,6 +38,7 @@
 10. 콘솔 게시판 만들기
 11. Lambda 와 Linq
     * delegate
+    * event
     * extend method
     * lambda
     * linq
@@ -42,9 +51,15 @@
       * Indexing
       * Searching
 13. Csharp New Feature
-   * 4.x 기능
-   * 5.x 기능
-   * 6.x 기능
+    * 4.x 기능
+    * 5.x 기능
+    * 6.x 기능
+    * 7.x 기능(Expected)
+14. 부록
+    * WEB
+      * ASP.NET 웹폼을 이용한 웹페이지구현
+    * DB
+      * SQL 기본 쿼리문
 
 # 2. 실행
 * 실행하고자 하는 프로젝트에 "오른쪽 마우스 클릭 > 시작 프로젝트로 설정"
