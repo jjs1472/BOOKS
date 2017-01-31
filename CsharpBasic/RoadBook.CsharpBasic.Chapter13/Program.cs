@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RoadBook.CsharpBasic.Chapter13
+﻿namespace RoadBook.CsharpBasic.Chapter13
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Examples.PLinqEx01 program = new Examples.PLinqEx01();
+
+            program.run();
         }
     }
 }

@@ -43,11 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\4\DefaultParamEx01.cs" />
+    <Compile Include="Examples\4\DynamicEx01.cs" />
+    <Compile Include="Examples\4\DynamicEx02.cs" />
+    <Compile Include="Examples\4\DynamicEx03.cs" />
+    <Compile Include="Examples\4\PLinqEx01.cs" />
+    <Compile Include="Examples\4\SpecifiedMethod.cs" />
+    <Compile Include="Examples\6\AutoProperty01.cs" />
+    <Compile Include="Examples\6\CollectionNullCheck01.cs" />
+    <Compile Include="Examples\6\CollectionNullCheck02.cs" />
+    <Compile Include="Examples\6\ExpressionMethod01.cs" />
+    <Compile Include="Examples\6\IndexInit01.cs" />
+    <Compile Include="Examples\6\StaticUsing01.cs" />
+    <Compile Include="Examples\6\StaticUsing02.cs" />
+    <Compile Include="Examples\6\StringInterpolation01.cs" />
+    <Compile Include="Examples\6\StringInterpolation02.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Examples\5\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
