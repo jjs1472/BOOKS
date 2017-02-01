@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Examples.Variable variable1 = new Examples.Variable();
+            Examples.Variable_var variable1 = new Examples.Variable_var();
 
             variable1.run();
         }

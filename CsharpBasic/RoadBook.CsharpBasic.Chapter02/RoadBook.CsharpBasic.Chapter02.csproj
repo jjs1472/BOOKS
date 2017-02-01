@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Examples\CalcSum.cs" />
+    <Compile Include="Examples\LocalGlobalVariable.cs" />
     <Compile Include="Examples\StudentAverage.cs" />
     <Compile Include="Examples\StudentAverageFinal.cs" />
     <Compile Include="Examples\Variable.cs" />
+    <Compile Include="Examples\Variable_var.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Works\Calculator.cs" />
