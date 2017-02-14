@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\ChickenEx4.cs" />
     <Compile Include="Examples\ChickenEx1.cs" />
     <Compile Include="Examples\ChickenEx2.cs" />
     <Compile Include="Examples\ChickenEx3.cs" />
     <Compile Include="Examples\ContinueNBreak.cs" />
+    <Compile Include="Examples\DoWileEx.cs" />
     <Compile Include="Examples\ForEx1.cs" />
+    <Compile Include="Examples\GradeCalc01.cs" />
     <Compile Include="Examples\GuGu1.cs" />
     <Compile Include="Examples\GuGu2.cs" />
     <Compile Include="Examples\WhileEx.cs" />
