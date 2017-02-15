@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\ArrayEx01.cs" />
+    <Compile Include="Examples\GradeEx01.cs" />
+    <Compile Include="Examples\Weather01.cs" />
+    <Compile Include="Examples\Weather02.cs" />
+    <Compile Include="Examples\Weather03.cs" />
+    <Compile Include="Examples\Weather04.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
