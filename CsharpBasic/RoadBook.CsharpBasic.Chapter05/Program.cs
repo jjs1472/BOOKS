@@ -10,6 +10,9 @@ namespace RoadBook.CsharpBasic.Chapter05
     {
         static void Main(string[] args)
         {
+            Examples.Commons ex01 = new Examples.Commons();
+
+            ex01.run();
         }
     }
 }
