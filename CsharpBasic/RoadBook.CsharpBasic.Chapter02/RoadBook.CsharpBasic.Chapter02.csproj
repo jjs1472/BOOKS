@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\BoolVariable.cs" />
     <Compile Include="Examples\CalcSum.cs" />
+    <Compile Include="Examples\ChangeVariable.cs" />
+    <Compile Include="Examples\CharacterVariable.cs" />
+    <Compile Include="Examples\ConvertEx.cs" />
+    <Compile Include="Examples\DateVarable.cs" />
+    <Compile Include="Examples\EnumEx.cs" />
     <Compile Include="Examples\LocalGlobalVariable.cs" />
+    <Compile Include="Examples\NumberVariable.cs" />
+    <Compile Include="Examples\ObjectVariable.cs" />
     <Compile Include="Examples\StudentAverage.cs" />
     <Compile Include="Examples\StudentAverageFinal.cs" />
     <Compile Include="Examples\Variable.cs" />
