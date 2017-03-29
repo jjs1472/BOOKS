@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RoadBook.CsharpBasic.Chapter06
 {
@@ -10,6 +6,9 @@ namespace RoadBook.CsharpBasic.Chapter06
     {
         static void Main(string[] args)
         {
+            Examples.FileHandle01 ex = new Examples.FileHandle01();
+
+            ex.run();
         }
     }
 }
