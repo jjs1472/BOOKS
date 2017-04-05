@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Examples.ForEx1 ex = new Examples.ForEx1();
+            Examples.GradeCalc01 ex = new Examples.GradeCalc01();
 
             ex.run();
         }
