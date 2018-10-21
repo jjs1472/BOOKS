@@ -43,23 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\BoolVariable.cs" />
-    <Compile Include="Examples\CalcSum.cs" />
-    <Compile Include="Examples\ChangeVariable.cs" />
-    <Compile Include="Examples\CharacterVariable.cs" />
-    <Compile Include="Examples\ConvertEx.cs" />
-    <Compile Include="Examples\DateVarable.cs" />
-    <Compile Include="Examples\EnumEx.cs" />
-    <Compile Include="Examples\LocalGlobalVariable.cs" />
-    <Compile Include="Examples\NumberVariable.cs" />
-    <Compile Include="Examples\ObjectVariable.cs" />
-    <Compile Include="Examples\StudentAverage.cs" />
-    <Compile Include="Examples\StudentAverageFinal.cs" />
-    <Compile Include="Examples\Variable.cs" />
-    <Compile Include="Examples\Variable_var.cs" />
+    <Compile Include="Examples\Ex003.cs" />
+    <Compile Include="Examples\Ex001.cs" />
+    <Compile Include="Examples\Ex002.cs" />
+    <Compile Include="Examples\Ex004.cs" />
+    <Compile Include="Examples\Ex005.cs" />
+    <Compile Include="Examples\Ex006.cs" />
+    <Compile Include="Examples\Ex007.cs" />
+    <Compile Include="Examples\Ex008.cs" />
+    <Compile Include="Examples\Ex009.cs" />
+    <Compile Include="Examples\Ex010.cs" />
+    <Compile Include="Examples\Ex011.cs" />
+    <Compile Include="Examples\Ex012.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Works\Calculator.cs" />
+    <Compile Include="Works\Exam001.cs" />
+    <Compile Include="Works\Exam002.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -2,28 +2,28 @@
 
 namespace RoadBook.CsharpBasic.Chapter02.Examples
 {
-    public class LocalGlobalVariable
+    public class Ex011
     {
         int globalValue = 20;
 
-        public void run()
+        public void Run()
         {
             int localValue = 10;
 
-            testMethod01();
-            testMethod02();
+            Sum();
+            Multiple();
 
             Console.WriteLine("local : {0} / global : {1}", localValue, globalValue);
         }
 
-        public void testMethod01()
+        private void Sum()
         {
             globalValue = globalValue + 10;
         }
 
-        public void testMethod02()
+        private void Multiple()
         {
-            globalValue = globalValue + 1;
+            globalValue = globalValue * 2;
         }
     }
 }

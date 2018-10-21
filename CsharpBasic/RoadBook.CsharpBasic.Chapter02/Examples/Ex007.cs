@@ -2,9 +2,9 @@
 
 namespace RoadBook.CsharpBasic.Chapter02.Examples
 {
-    public class StudentAverage
+    public class Ex007
     {
-        public void run()
+        public void Run()
         {
             int korean = 100;
             int english = 100;

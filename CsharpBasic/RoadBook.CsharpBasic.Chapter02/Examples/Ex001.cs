@@ -2,9 +2,9 @@
 
 namespace RoadBook.CsharpBasic.Chapter02.Examples
 {
-    public class NumberVariable
+    public class Ex001
     {
-        public void run()
+        public void Run()
         {
             //정수
             sbyte shortByteNumber = 127;
@@ -17,8 +17,19 @@ namespace RoadBook.CsharpBasic.Chapter02.Examples
             double doubleNumber = 1.5;
             decimal decimalNumber = 5.5m;
 
-            Console.WriteLine("정수 : {0}, {1}, {2}, {3}, {4}", shortByteNumber, byteNumber, shortNumber, intNumber, longNumber);
-            Console.WriteLine("실수 : {0}, {1}, {2}", floatNumber, doubleNumber, decimalNumber);
+            Console.WriteLine("정수 : {0}, {1}, {2}, {3}, {4}",
+                shortByteNumber,
+                byteNumber,
+                shortNumber,
+                intNumber,
+                longNumber
+            );
+
+            Console.WriteLine("실수 : {0}, {1}, {2}",
+                floatNumber,
+                doubleNumber,
+                decimalNumber
+            );
         }
     }
 }

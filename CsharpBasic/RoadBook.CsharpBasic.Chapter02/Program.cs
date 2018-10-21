@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Examples.Variable_var variable1 = new Examples.Variable_var();
+            Works.Exam002 value = new Works.Exam002();
 
-            variable1.run();
+            value.Run();
         }
     }
 }
