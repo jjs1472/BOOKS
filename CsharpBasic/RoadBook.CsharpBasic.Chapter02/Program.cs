@@ -1,4 +1,4 @@
-﻿namespace RoadBook.CsharpBasic.Chapter02
+﻿namespace RoadBook.CsharpBasic.Chapter02 
 {
     class Program
     {
