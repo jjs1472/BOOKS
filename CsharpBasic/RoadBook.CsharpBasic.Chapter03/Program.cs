@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Examples.GradeCalc01 ex = new Examples.GradeCalc01();
+            Examples.Ex001 ex = new Examples.Ex001();
 
-            ex.run();
+            ex.Run();
         }
     }
 }

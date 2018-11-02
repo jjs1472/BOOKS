@@ -43,19 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\ChickenEx4.cs" />
-    <Compile Include="Examples\ChickenEx1.cs" />
-    <Compile Include="Examples\ChickenEx2.cs" />
-    <Compile Include="Examples\ChickenEx3.cs" />
-    <Compile Include="Examples\ContinueNBreak.cs" />
-    <Compile Include="Examples\DoWileEx.cs" />
-    <Compile Include="Examples\ForEx1.cs" />
-    <Compile Include="Examples\GradeCalc01.cs" />
-    <Compile Include="Examples\GuGu1.cs" />
-    <Compile Include="Examples\GuGu2.cs" />
-    <Compile Include="Examples\WhileEx.cs" />
+    <Compile Include="Examples\Ex001.cs" />
+    <Compile Include="Examples\Ex002.cs" />
+    <Compile Include="Examples\Ex003.cs" />
+    <Compile Include="Examples\Ex004.cs" />
+    <Compile Include="Examples\Ex005.cs" />
+    <Compile Include="Examples\Ex006.cs" />
+    <Compile Include="Examples\Ex007.cs" />
+    <Compile Include="Examples\Ex008.cs" />
+    <Compile Include="Examples\Ex009.cs" />
+    <Compile Include="Examples\Ex010.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Works\Exam001.cs" />
+    <Compile Include="Works\Exam002.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
