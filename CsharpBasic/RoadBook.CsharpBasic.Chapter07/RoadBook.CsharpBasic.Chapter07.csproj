@@ -43,20 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\ArrayListEx1.cs" />
-    <Compile Include="Examples\ArrayListEx2.cs" />
-    <Compile Include="Examples\ArrayListEx3.cs" />
-    <Compile Include="Examples\ArrayListEx4.cs" />
-    <Compile Include="Examples\GenericDictEx.cs" />
-    <Compile Include="Examples\GenericEx1.cs" />
-    <Compile Include="Examples\GenericEx2.cs" />
-    <Compile Include="Examples\GenericQueueEx.cs" />
-    <Compile Include="Examples\GenericStackEx.cs" />
-    <Compile Include="Examples\HashtableEx1.cs" />
-    <Compile Include="Examples\HashtableEx2.cs" />
-    <Compile Include="Examples\Model\Student.cs" />
-    <Compile Include="Examples\QueueEx.cs" />
-    <Compile Include="Examples\StackEx.cs" />
+    <Compile Include="Examples\Ex001.cs" />
+    <Compile Include="Examples\Ex002.cs" />
+    <Compile Include="Examples\Ex003.cs" />
+    <Compile Include="Examples\Ex004.cs" />
+    <Compile Include="Examples\Ex005.cs" />
+    <Compile Include="Examples\Ex006.cs" />
+    <Compile Include="Examples\Ex007.cs" />
+    <Compile Include="Examples\Ex008.cs" />
+    <Compile Include="Examples\UserException\MyStyleException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
