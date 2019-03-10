@@ -43,21 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\Error1.cs" />
-    <Compile Include="Examples\Error2.cs" />
-    <Compile Include="Examples\ExceptionHandling1.cs" />
-    <Compile Include="Examples\ExceptionHandling2.cs" />
-    <Compile Include="Examples\ExceptionHandling3.cs" />
-    <Compile Include="Examples\ExceptionHandling4.cs" />
-    <Compile Include="Examples\ExceptionHandling5.cs" />
-    <Compile Include="Examples\FileManager.cs" />
-    <Compile Include="Examples\FileManagerRun.cs" />
-    <Compile Include="Examples\UserExcept\MyStyleException.cs" />
+    <Compile Include="Examples\Ex001.cs" />
+    <Compile Include="Examples\Ex002.cs" />
+    <Compile Include="Examples\Ex003.cs" />
+    <Compile Include="Examples\Ex004.cs" />
+    <Compile Include="Examples\Ex005.cs" />
+    <Compile Include="Examples\Ex006.cs" />
+    <Compile Include="Examples\Ex007.cs" />
+    <Compile Include="Examples\Ex008.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\SQL006.sql" />
+    <Content Include="SQL\SQL005.sql" />
+    <Content Include="SQL\SQL004.sql" />
+    <Content Include="SQL\SQL003.sql" />
+    <Content Include="SQL\SQL002.sql" />
+    <Content Include="SQL\SQL001.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

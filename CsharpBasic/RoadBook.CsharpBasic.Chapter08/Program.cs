@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            Examples.Ex008 ex = new Examples.Ex008();
+
+            ex.Run();
         }
     }
 }
