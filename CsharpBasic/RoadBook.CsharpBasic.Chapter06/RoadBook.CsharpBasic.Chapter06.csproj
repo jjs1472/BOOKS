@@ -43,21 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\DirectoryHandle01.cs" />
-    <Compile Include="Examples\DirectoryHandle02.cs" />
-    <Compile Include="Examples\ExceptionEx01.cs" />
-    <Compile Include="Examples\FileHandle01.cs" />
-    <Compile Include="Examples\FileHandle02.cs" />
-    <Compile Include="Examples\MathEx01.cs" />
-    <Compile Include="Examples\StaticStringUtil.cs" />
-    <Compile Include="Examples\StrFind01.cs" />
-    <Compile Include="Examples\StringUtil.cs" />
-    <Compile Include="Examples\StrInsert01.cs" />
-    <Compile Include="Examples\StrReplace01.cs" />
-    <Compile Include="Examples\StrSplit01.cs" />
-    <Compile Include="Examples\StrSub01.cs" />
-    <Compile Include="Examples\StrTrim01.cs" />
-    <Compile Include="Examples\StrUpLow01.cs" />
+    <Compile Include="Examples\Ex003.cs" />
+    <Compile Include="Examples\Ex001.cs" />
+    <Compile Include="Examples\Ex002.cs" />
+    <Compile Include="Examples\Ex004.cs" />
+    <Compile Include="Examples\Ex005.cs" />
+    <Compile Include="Examples\Ex006.cs" />
+    <Compile Include="Examples\Ex007.cs" />
+    <Compile Include="Examples\Ex008.cs" />
+    <Compile Include="Examples\Ex009.cs" />
+    <Compile Include="Examples\Ex010.cs" />
+    <Compile Include="Examples\Ex011.cs" />
+    <Compile Include="Examples\Ex012.cs" />
+    <Compile Include="Examples\Ex013.cs" />
+    <Compile Include="Examples\Ex014.cs" />
+    <Compile Include="Examples\Ex015.cs" />
+    <Compile Include="Examples\Ex016.cs" />
+    <Compile Include="Examples\Ex017.cs" />
+    <Compile Include="Examples\Ex018.cs" />
+    <Compile Include="Examples\Model\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

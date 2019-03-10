@@ -6,9 +6,9 @@ namespace RoadBook.CsharpBasic.Chapter06
     {
         static void Main(string[] args)
         {
-            Examples.DirectoryHandle02 ex = new Examples.DirectoryHandle02();
+            Examples.Ex001 ex = new Examples.Ex001();
 
-            ex.run();
+            ex.Run();
         }
     }
 }
