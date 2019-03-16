@@ -12,7 +12,7 @@ namespace RoadBook.CsharpBasic.Chapter12.SearchEngine
 
         private int _crawlCnt = 0;
         private string _multipleRowSeparator = "||";
-
+         
         public Crawl()
         {
             _xmlManager = new Manager.XmlManager(Manager.XmlManager.USE_TYPE.WRITE);
