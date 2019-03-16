@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace RoadBook.CsharpBasic.Chapter12.SearchEngine.Manager
+namespace RoadBook.CsharpBasic.Chapter12.Examples.Manager
 {
     public class XmlManager
     {
@@ -35,7 +35,7 @@ namespace RoadBook.CsharpBasic.Chapter12.SearchEngine.Manager
                     }
 
                     _xDoc = new XDocument(
-                                new XDeclaration("1.0", "utf-8", null), 
+                                new XDeclaration("1.0", "utf-8", null),
                                 new XElement("result"));
                     break;
                 case USE_TYPE.READ:
@@ -56,40 +56,33 @@ namespace RoadBook.CsharpBasic.Chapter12.SearchEngine.Manager
             }
         }
 
-        public void writeXML(Model.Board board)
+        public void Write(Model.Contents contents)
         {
             _xDoc.Element("result").Add(
-                new XElement("row", 
-                    new XElement("idx", board.IDX),
-                    new XElement("title", new XCData(board.TITLE)),
-                    new XElement("content", new XCData(board.CONTENT)),
-                    new XElement("writer_name", new XCData(board.WRITER_NAME)),
-                    new XElement("create_date", board.CREATE_DATE),
-                    new XElement("modify_date", board.MODIFY_DATE),
-                    new XElement("tag", new XCData(board.TAG)),
-                    new XElement("category_name", new XCData(board.CATEGORY_NAME)),
-                    new XElement("reply_comment", new XCData(board.REPLY_COMMENT)),
-                    new XElement("reply_writer", new XCData(board.REPLY_WRITER))
+                new XElement("row",
+                    new XElement("idx", contents.Idx),
+                    new XElement("title", new XCData(contents.Title)),
+                    new XElement("summary", new XCData(contents.Summary)),
+                    new XElement("create_date", contents.CreateDt),
+                    new XElement("create_user", new XCData(contents.CreateUserNm)),
+                    new XElement("tags", new XCData(contents.Tags))
                 ));
         }
 
-        public List<Model.Board> readXML()
+        public List<Model.Contents> Read()
         {
-            return _xDoc.Descendants("row").Select(s => new Model.Board()
+            return _xDoc.Descendants("row").Select(s => new Model.Contents()
             {
-                IDX = Convert.ToInt32(s.Element("idx").Value),
-                TITLE = s.Element("title").Value,
-                CONTENT = s.Element("content").Value,
-                WRITER_NAME = s.Element("writer_name").Value,
-                CREATE_DATE = Convert.ToDateTime(s.Element("create_date").Value),
-                TAG = s.Element("tag").Value,
-                CATEGORY_NAME = s.Element("category_name").Value,
-                REPLY_COMMENT = s.Element("reply_comment").Value,
-                REPLY_WRITER = s.Element("reply_writer").Value
+                Idx = Convert.ToInt32(s.Element("idx").Value),
+                Title = s.Element("title").Value,
+                Summary = s.Element("summary").Value,
+                CreateDt = Convert.ToDateTime(s.Element("create_date").Value),
+                CreateUserNm = s.Element("create_user").Value,
+                Tags = s.Element("tags").Value
             }).ToList();
         }
-
-        public void saveXML()
+        
+        public void Save()
         {
             string filename = DateTime.Now.ToString("yyyyMMddHHmmssfff") + ".xml";
 
