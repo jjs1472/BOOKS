@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,11 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\Manager\MSSQLManager.cs" />
-    <Compile Include="Examples\Manager\MySQLManager.cs" />
+    <Compile Include="Examples\Ex001.cs" />
+    <Compile Include="Examples\Manager\MsSqlManager.cs" />
+    <Compile Include="Examples\Manager\MySqlManager.cs" />
     <Compile Include="Examples\Manager\OracleManager.cs" />
-    <Compile Include="Examples\Model\DBInfo.cs" />
-    <Compile Include="Examples\Manager\IDBManager.cs" />
+    <Compile Include="Examples\Model\DatabaseInfo.cs" />
+    <Compile Include="Examples\Manager\IDatabaseManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,7 +58,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataBase\게시판쿼리.sql" />
+    <Content Include="SQL\SQL002.sql" />
+    <Content Include="SQL\SQL001.sql" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

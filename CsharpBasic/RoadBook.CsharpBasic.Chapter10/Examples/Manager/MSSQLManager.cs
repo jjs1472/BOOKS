@@ -1,31 +1,27 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
-using System.Text;
 using RoadBook.CsharpBasic.Chapter10.Examples.Model;
 
 namespace RoadBook.CsharpBasic.Chapter10.Examples.Manager
 {
-    public class MSSQLManager : IDBManager
+    public class MsSqlManager : IDatabaseManager
     {
-        string _connStr = string.Empty;
-        StringBuilder sbSQL;
-
         SqlConnection connection = null;
 
-        public void open(DBInfo dbInfo)
+        public void Open(DatabaseInfo dbInfo)
         {
-            _connStr = string.Format("Data Source={0},{1};Initial Catalog={2};User ID={3};Password={4}",
-                                    dbInfo.IP,
-                                    dbInfo.PORT,
-                                    dbInfo.DBNAME,
-                                    dbInfo.USERID,
-                                    dbInfo.USERPW);
+            string conStr = string.Format("Data Source={0},{1};Initial Catalog={2};User ID={3};Password={4}",
+                                    dbInfo.Ip,
+                                    dbInfo.Port,
+                                    dbInfo.Name,
+                                    dbInfo.UserId,
+                                    dbInfo.UserPassword);
 
-            connection = new SqlConnection(_connStr);
+            connection = new SqlConnection(conStr);
             connection.Open();
         }
 
-        public DataTable select(string sql)
+        public DataTable Select(string sql)
         {
             DataTable dt = new DataTable();
 
@@ -55,7 +51,7 @@ namespace RoadBook.CsharpBasic.Chapter10.Examples.Manager
             return dt;
         }
 
-        public int insert(string sql)
+        public int Insert(string sql)
         {
             int activeNumber = 0;
 
@@ -67,7 +63,7 @@ namespace RoadBook.CsharpBasic.Chapter10.Examples.Manager
             return activeNumber;
         }
 
-        public int update(string sql)
+        public int Update(string sql)
         {
             int activeNumber = 0;
 
@@ -79,7 +75,7 @@ namespace RoadBook.CsharpBasic.Chapter10.Examples.Manager
             return activeNumber;
         }
 
-        public int delete(string sql)
+        public int Delete(string sql)
         {
             int activeNumber = 0;
 
@@ -91,7 +87,7 @@ namespace RoadBook.CsharpBasic.Chapter10.Examples.Manager
             return activeNumber;
         }
 
-        public void close()
+        public void Close()
         {
             if (connection != null)
             {

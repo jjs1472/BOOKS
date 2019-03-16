@@ -3,38 +3,38 @@ using RoadBook.CsharpBasic.Chapter10.Examples.Model;
 
 namespace RoadBook.CsharpBasic.Chapter10.Examples.Manager
 {
-    public class MySQLManager : IDBManager
+    public class MySqlManager : IDatabaseManager
     {
-        public void open(DBInfo dbInfo)
+        public void Open(DatabaseInfo dbInfo)
         {
             //TODO
         }
 
-        public DataTable select(string sql)
+        public DataTable Select(string sql)
         {
             //TODO
             return new DataTable();
         }
 
-        public int insert(string sql)
+        public int Insert(string sql)
         {
             //TODO
             return 0;
         }
 
-        public int update(string sql)
+        public int Update(string sql)
         {
             //TODO
             return 0;
         }
 
-        public int delete(string sql)
+        public int Delete(string sql)
         {
             //TODO
             return 0;
         }
 
-        public void close()
+        public void Close()
         {
             //TODO
         }

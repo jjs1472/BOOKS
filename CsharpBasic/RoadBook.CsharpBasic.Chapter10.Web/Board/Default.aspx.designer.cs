@@ -7,10 +7,10 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace RoadBook.CsharpBasic.Chapter10.Web {
+namespace RoadBook.CsharpBasic.Chapter10.Web.Board {
     
     
-    public partial class board {
+    public partial class Default {
         
         /// <summary>
         /// form1 컨트롤입니다.

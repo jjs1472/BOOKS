@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RoadBook.CsharpBasic.Chapter10.Web")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,14 +20,14 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 이 프로젝트가 COM에 노출되는 경우 다음 GUID는 typelib의 ID를 나타냅니다.
-[assembly: Guid("282704a9-8ec2-4623-83d8-c3e8ac48d85a")]
+[assembly: Guid("5d2358f1-40c0-474c-8945-2ae35876c8af")]
 
 // 어셈블리의 버전 정보는 다음 네 가지 값으로 구성됩니다.:
 //
-//      주 버전
-//      부 버전 
-//      빌드 번호
-//      수정 버전
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
 //
 // 모든 값을 지정하거나 아래와 같이 '*'를 사용하여 빌드 번호 및 수정 버전이 자동으로 
 // 지정되도록 할 수 있습니다.:
