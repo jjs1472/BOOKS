@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter01", "RoadBook.CsharpBasic.Chapter01\RoadBook.CsharpBasic.Chapter01.csproj", "{D4F4EED8-5205-401C-ADD5-9C9C9EDFB554}"
 EndProject
@@ -34,7 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter13", "RoadBook.CsharpBasic.Chapter13\RoadBook.CsharpBasic.Chapter13.csproj", "{0900E370-AF0C-4D1B-B2C0-6EF064584385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter10.Web", "RoadBook.CsharpBasic.Chapter10.Web\RoadBook.CsharpBasic.Chapter10.Web.csproj", "{282704A9-8EC2-4623-83D8-C3E8AC48D85A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter10.Web", "RoadBook.CsharpBasic.Chapter10.Web\RoadBook.CsharpBasic.Chapter10.Web.csproj", "{5D2358F1-40C0-474C-8945-2AE35876C8AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,12 +94,15 @@ Global
 		{0900E370-AF0C-4D1B-B2C0-6EF064584385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0900E370-AF0C-4D1B-B2C0-6EF064584385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0900E370-AF0C-4D1B-B2C0-6EF064584385}.Release|Any CPU.Build.0 = Release|Any CPU
-		{282704A9-8EC2-4623-83D8-C3E8AC48D85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{282704A9-8EC2-4623-83D8-C3E8AC48D85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{282704A9-8EC2-4623-83D8-C3E8AC48D85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{282704A9-8EC2-4623-83D8-C3E8AC48D85A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2358F1-40C0-474C-8945-2AE35876C8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2358F1-40C0-474C-8945-2AE35876C8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2358F1-40C0-474C-8945-2AE35876C8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2358F1-40C0-474C-8945-2AE35876C8AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE24BC67-743F-4089-88F5-2AC68A8DD26C}
 	EndGlobalSection
 EndGlobal
