@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Examples.Manager.SearchManager im = new Examples.Manager.SearchManager();
+            Examples.Ex001 ex = new Examples.Ex001();
 
-            im.Run();
+            ex.Run();
         }
     }
 }
