@@ -5,12 +5,10 @@
         static void Main(string[] args)
         {
             Examples.Hello hello = new Examples.Hello();
-            hello.run();
+            hello.Run();
 
-            /*
-            Works.TodayHello tHello = new Works.TodayHello();
-            tHello.run();
-            */
+            System.Console.WriteLine("계속 하시려면 아무 키나 누르세요.");
+            System.Console.ReadKey();
         }
     }
 }
